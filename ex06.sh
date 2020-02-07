@@ -2,7 +2,7 @@
 
 echo "Escreva um nome de arquivo ou diretório: " ; read variavel
 
-if [ -f "$variavel" ] 
+if [ -f "$variavel" ]
 	then
 		echo "$variavel é um arquivo comum"
 elif [ -d "$variavel" ]
